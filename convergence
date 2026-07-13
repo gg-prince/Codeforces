@@ -1,0 +1,33 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main(){
+    int t;
+    cin >> t;
+    cin.ignore();
+
+    vector<vector<int>> testcase;
+    vector<vector<int>> testcaseout;
+    int turn;
+
+    for(int i=0; i<t; i++){
+        int n;
+        cin >> n;
+        cin.ignore();
+        testcase.resize(t, n);
+
+        turn = 0;
+
+        for(int j=0; j<n; j++){
+            cin >> testcase[i][j];
+        }
+        sort(testcase[i].begin(), testcase[i].end());
+        for(int j=0; j<n; j++){
+
+        }
+
+    }
+
+    return 0;
+}
