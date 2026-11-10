@@ -1,1 +1,14 @@
-.vscode/
+# Ignore absolutely everything by default
+*
+
+# Allow Git to look inside directories
+!*/
+!**/
+
+# Whitelist only C++ source files
+!*.cpp
+!**/*.cpp
+
+# Whitelist the gitignore file itself
+!.gitignore
+
